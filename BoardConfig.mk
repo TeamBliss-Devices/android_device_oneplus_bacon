@@ -18,7 +18,6 @@
 -include device/oppo/msm8974-common/BoardConfigCommon.mk
 
 BLISS_BUILD_BLOCK := 1
-BLISS_WIPE_CACHES := 1
 TARGET_TC_ROM := 4.8-linaro
 TARGET_TC_KERNEL := 4.9-sm
 BLISSIFY := true
@@ -26,7 +25,7 @@ BLISS_O3 := true
 BLISS_GRAPHITE := false
 BLISS_STRICT := true
 BLISS_KRAIT := true
-BLISS_PIPE := true
+BLISS_PIPE := false
 
 TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
